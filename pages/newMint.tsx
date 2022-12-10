@@ -19,7 +19,10 @@ import {
 } from "react"
 import { ArrowForwardIcon } from "@chakra-ui/icons"
 import { PublicKey } from "@solana/web3.js"
-import { Metaplex, walletAdapterIdentity } from "@metaplex-foundation/js"
+import {
+    Metaplex,
+    walletAdapterIdentity
+  } from "@metaplex-foundation/js";
 
 const NewMint: NextPage<NewMintProps> = ({ mint }) => {
   const [metadata, setMetadata] = useState<any>()
