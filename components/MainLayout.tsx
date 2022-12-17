@@ -7,7 +7,6 @@ import { useWallet } from "@solana/wallet-adapter-react"
 
 const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   const { connected } = useWallet()
-
   return (
     <div className={styles.container}>
       <Head>
@@ -38,7 +37,6 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                build with @_buildspace
               </a>
             </Box>
           </Center>
